@@ -1,7 +1,7 @@
 name: Harness Daily Fetch
 on:
   schedule:
-    - cron: '30 17 * * 1-5'
+    - cron: '30 17 * * 0-4'
   workflow_dispatch:
 permissions:
   contents: write
